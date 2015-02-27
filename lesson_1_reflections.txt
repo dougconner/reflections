@@ -1,0 +1,43 @@
+Using diff reduces the code I must look through to find differences.
+Reducing the code to search through saves time.
+The computer is much faster than I am at comparing text.
+The computer is more accurate at comparing text.
+Saving the code often will further reduce the code to compare.
+
+Advantages of having easy access to the entire history of a file.
+You can backtrack from errors to recover quickly.
+You would be free to try experiments with different code.
+You could compare the efficiency or size of the two approaches.
+
+Manual commits vs automatic
+Manual commits help make each version logical and defined.
+Manual commits changes based on function rather than time.
+Automatic commits might be useful as a file backup for crashes.
+Automatic commits will save files at difficult to comapare times.
+Learning to use manual commits properly takes discipline.
+
+Multi-file commits - saving one file vs saving multiple files
+Adding or changing features in code often involves multiple files.
+The files will all need to work together; js, html, css for example.
+Documents may refer to other documents but not be as tightly coupled.
+Automatic commits across many file could use a lot of memory too.
+
+How can you use git log and git diff to view the history files?
+First cd to the directory fo the repository.
+If you don't have it run "git clone URL" and clone the repository.
+Type "git log" to view the log file.
+For Colored output run "git config --global color.ui auto"
+When you want to see the changes in a comit use "git diff ID(n) ID(n-1)"
+ID(n) is the commit you are interested in. ID(n-1) is the previous commit.
+Earlier commits are further down in the listing.
+Green lines are additions, red lines are deletions.
+
+How might using version control make you more confident to make changes that could break something?
+Version control makes it easy to revert to an older version.
+This eliminates most of the risk associated with large experiments.
+You can have confidence that you can throw out the experiment if necessary.
+You can also find when an error was introduced more easily.
+Reducing the risk encourages creativity and code improviement.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I'd like to try creating some code and testing it.
