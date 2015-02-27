@@ -1,3 +1,13 @@
 git init
 is used to initialize a repository in a directory.
 This command sets up the repository but does not make any commits.
+Once I saved this new file, it shows up in the git status.
+It still has no commits.
+
+How is the staging area different from the working directory and the respository?
+What value do you think it offers?
+The staging area is necessary when you have more than one file in the directory.
+This lets you select which files will be added to the repository.
+The working directory contains all the files.
+The repository contains the committed files.
+The staging area is where you define which files will go in the repository.
