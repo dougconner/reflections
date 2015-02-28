@@ -29,3 +29,18 @@ Branches help by letting you assign a name to a branch for easily finding it.
 How do diagrams help you visualize the branch structure?
 The log graph features helps some but you probably need to draw a diagram to fully understand the branch structure.
 It is especially important if you want to know which changes are in you branch.
+
+What is the result of merging two branches together?
+Why do we represent the diagram the way we do?
+The result of merging made a file with the combination of the two branches.
+Although the color mod worked it did not include color for coins.
+Using the git show command where color was added I could see how it was done.
+Then I was able to go in and easily modify the code to color coins.
+The merging diagram represents what happened.
+After merge it may not be quite as clear what happened when it becomes one path.
+
+What are the pros and cons of Git's automatic merging vs always doing manual?
+It looks like if git can do an automatic merge it will probably work.
+I would want to test that for quite a while to become more confident.
+If git can't auto-merge, then it provides a good setup for the manual merge.
+It seems like there is little to loose with the auto merge.
