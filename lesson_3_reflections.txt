@@ -1,6 +1,11 @@
 When would you want a remote repository rather than keeping all your work local?
-My first thought is for off-site backup in case my computer lost, stolen, or a disk crash. 
-A remote repository is necessary for working with other developers in a simple, organized way.  
-A remote repositry is the probably the best way to share work with the community. 
+My first thought is for off-site backup in case my computer lost, stolen, or a disk crash.
+A remote repository is necessary for working with other developers in a simple, organized way.
+A remote repositry is the probably the best way to share work with the community.
 Any solo work I want to remain private would probably stay local.
-Private work with other would be a good reason to use a paid GitHub repository. 
+Private work with other would be a good reason to use a paid GitHub repository.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote?
+It would be disruptive to have your local repository update automatically.
+You could be in the middle of and edit to your code and have a new commit show up.
+A new commit from the remote could have new things broken.
