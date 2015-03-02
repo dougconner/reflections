@@ -20,3 +20,6 @@ A branch is in the same repository as the source.
 A fork should be used if the files will eventually show up on GitHub.
 A clone is appropriate if the material will be kept locally.
 Branches should be used for an experimental or temporary changes that will be merged.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+This will let the local git know when the path is not able to fast-forward merge.
