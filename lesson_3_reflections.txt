@@ -23,3 +23,12 @@ Branches should be used for an experimental or temporary changes that will be me
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 This will let the local git know when the path is not able to fast-forward merge.
+
+How would you collaborate without Git or GitHub?
+What would be easier, and what would be harder?
+Collaboration without something like GitHub would be difficult.
+I would probably try to setup a Google doc or use Dropbox to keep copies.
+Merging would be tedious.
+We would have to setup a very clear process for handling changes.
+I'm not sure the GitHub process is simple but it does seem well thought out.
+
